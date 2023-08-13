@@ -22,10 +22,10 @@ root.render(
     <WalletManagerProvider
       defaultChainId={ChainInfoID.Juno1}
       enabledWalletTypes={[WalletType.Keplr, WalletType.WalletConnectKeplr]}
-      localStorageKey="JunoChess_already_connected"
+      localStorageKey="CosmicChess_already_connected"
       walletConnectClientMeta={{
-        name: "JunoChess",
-        description: "A dapp for playing Chess on Juno.",
+        name: "Cosmic Chess",
+        description: "A dapp for playing Chess on Qwoyn Network developed by Jeremy Fee.",
         url: "https://junochess.pages.dev",
         icons: [],
       }}

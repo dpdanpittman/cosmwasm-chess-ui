@@ -19,7 +19,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>JunoChess</h1>
+      <NavLink className={navClass} to="/">
+        <h1>Cosmic Chess</h1>
+      </NavLink>
 
       <nav>
         <NavLink className={navClass} to="challenges/">
