@@ -15,20 +15,17 @@
 @media screen and (min-width: 540px) {
   .game-wrapper {
     display: flex;
-    max-width: 100%;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make sure the content fills the viewport */
   }
 
   .game {
-    vertical-align: middle;
-    display: flex;
-    flex-direction: column;
-    max-width:60vh;
+    text-align: center; /* Center-align the content */
+    max-width: 75vh; /* Limit the width of the game content */
   }
 
   .controls {
-    margin-left: 3vw;
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    margin-top: 1em; /* Add some space between summary and controls */
   }
 }
