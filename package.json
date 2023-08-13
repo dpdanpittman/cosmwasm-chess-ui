@@ -17,7 +17,7 @@
     "@cosmjs/cosmwasm-stargate": "^0.28.13",
     "@cosmjs/proto-signing": "^0.28.13",
     "@keplr-wallet/types": "^0.10.24",
-    "github:dpdanpittman/cosmodal": "^1.0.0",
+    "@noahsaso/cosmodal":"github:dpdanpittman/cosmodal#1.0.0",
     "@types/styled-components": "^5.1.26",
     "buffer": "^6.0.3",
     "chess.js": "^0.12.1",
@@ -40,10 +40,10 @@
     "vite": "^3.1.0"
   },
   "resolutions": {
-    "github:dpdanpittman/cosmodal/@keplr-wallet/common": "^0.10.24",
-    "github:dpdanpittman/cosmodal/@keplr-wallet/cosmos": "^0.10.24",
-    "github:dpdanpittman/cosmodal/@keplr-wallet/crypto": "^0.10.24",
-    "github:dpdanpittman/cosmodal/@keplr-wallet/provider": "^0.10.24",
-    "github:dpdanpittman/cosmodal/@keplr-wallet/stores": "^0.10.24"
+    "@noahsaso/cosmodal/@keplr-wallet/common": "^0.10.24",
+    "@noahsaso/cosmodal/@keplr-wallet/cosmos": "^0.10.24",
+    "@noahsaso/cosmodal/@keplr-wallet/crypto": "^0.10.24",
+    "@noahsaso/cosmodal/@keplr-wallet/provider": "^0.10.24",
+    "@noahsaso/cosmodal/@keplr-wallet/stores": "^0.10.24"
   }
 }
