@@ -20,7 +20,7 @@ const root = createRoot(document.getElementById("root")!);
 root.render(
   <StrictMode>
     <WalletManagerProvider
-      defaultChainId={ChainInfoID.Juno1}
+      defaultChainId={ChainInfoID.Earendel1}
       enabledWalletTypes={[WalletType.Keplr, WalletType.WalletConnectKeplr]}
       localStorageKey="CosmicChess_already_connected"
       walletConnectClientMeta={{
