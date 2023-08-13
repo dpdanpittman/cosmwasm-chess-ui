@@ -12,23 +12,23 @@
   margin-top: 0.5em;
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 740px) {
   .game-wrapper {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Make sure the content fills the viewport */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
 
   .game {
     text-align: center;
     max-width: 75vh;
     display: flex;
-    flex-direction: column; /* Stack the content vertically */
-    align-items: center; /* Center align horizontally */
+    flex-direction: column;
+    align-items: center;
   }
 
   .controls {
-    margin-top: 1em; /* Add some space between summary and controls */
+    margin-top: 2em; /* Increase the margin to create more space */
   }
 }
