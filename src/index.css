@@ -1,8 +1,7 @@
 body {
   margin: 20px;
   background: rgb(159,159,159);
-  background: linear-gradient(90deg, rgba(159,159,159,0.8856136204481793) 50%, rgba(220,36,88,0.7119441526610644) 83%, rgba(245,162,32,0.8744091386554622) 100%);
-  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(90deg, rgba(159,159,159,0.8856136204481793) 45%, rgba(245,162,32,0.4094231442577031) 69%, rgba(220,36,88,0.4038209033613446) 100%);  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
