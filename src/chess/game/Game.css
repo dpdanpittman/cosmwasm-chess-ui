@@ -12,12 +12,12 @@
   margin-top: 0.5em;
 }
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 540px) {
   .game-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
   }
 
   .game {
