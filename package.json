@@ -17,7 +17,7 @@
     "@cosmjs/cosmwasm-stargate": "^0.28.13",
     "@cosmjs/proto-signing": "^0.28.13",
     "@keplr-wallet/types": "^0.10.24",
-    "@cosmic-horizon/cosmodal": "^1.0.0",
+    "github:cosmic-horizon/cosmodal": "^1.0.0",
     "@types/styled-components": "^5.1.26",
     "buffer": "^6.0.3",
     "chess.js": "^0.12.1",
