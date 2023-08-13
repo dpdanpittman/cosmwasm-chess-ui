@@ -5,7 +5,7 @@ import { CosmWasmChess } from "./chess/CosmWasmChess";
 import { useCosmWasm } from "./chess/useCosmWasm";
 
 // import { CHAIN_INFO, CONTRACT } from "./config/testnet";
-import { CHAIN_INFO, CONTRACT } from "./config/juno";
+import { CHAIN_INFO, CONTRACT } from "./config/earendel";
 import { Address } from "./Address";
 
 import "./App.css";
